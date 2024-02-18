@@ -1,0 +1,19 @@
+The ether.js library aims to be a complete and compact library for interacting with the Ethereum blockchain and its eco-system.
+
+- It connnects the Frontend(means outer world) with the blockchain world. Will act as a bridge for communicating both layers. 
+       React.js   =====   Ether.js   =====  Smart Contract
+
+
+------------------------------ Common Terminologies --------------------------
+
+Provider :- A Provider (in ethers) is a class which provides an abstraction for a connection to the ethereum netwrok. It provides read-only access to the Blockchain and its status.
+
+Signer :- A Signer is a class which (usually) in some way directly or indirectly has access to  a private key, which can sign messages and transactions to authorize the netwrok to charge your account ether to perform operations.
+
+Contract :- A Contract is an abstraction which represents a connection to a specific contract on the Ethereum netwrok, so that applications can use it like a normal JavaScript object.
+
+
+---------------------------- Operations -------------------------------
+
+Read  === >>  Provider and Infura(Node As A Service)
+Write === >>  Signer and Metamask
